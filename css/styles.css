@@ -4,12 +4,15 @@ body{
     min-height: 100vh;
 }
 .container{
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 1200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
     border: 2px solid #e1dede;
     border-radius: 15px;
+    max-width: 750px;
 }
 header{
     background-color: rgb(57, 57, 140);
@@ -85,4 +88,29 @@ h2{
 
 .content{
     padding: 20px;
+}
+.date{
+    font-style: italic;
+    color: gray;
+    margin-top:0px;
+}
+.edu{
+    margin: 0px;
+}
+
+footer{
+    background-color: rgb(57, 57, 140);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    gap: 20px;
 }
